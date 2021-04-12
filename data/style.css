@@ -267,8 +267,8 @@
 
 .button-search-entrances-and-exits {
     border-radius: 5px;
-    color: #6d6c6c;
-    border: 1px solid rgba(153, 152, 152, 0.76);
+    color: #929292;
+    border: 1px solid rgba(190, 190, 190, 0.76);
     font-size: 11px;
     background-color: white;
     height: 30px;
@@ -364,10 +364,10 @@
     outline: 0;
     border: none;
     font-size: 12px;
-    border-bottom: 1px solid #727272 !important;
+    border-bottom: 1px solid #b8b8b8 !important;
     border-radius: 0px;
     background: #ffffff;
-    color: #8b8b8bdf;
+    color: #a7a7a7df;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -389,16 +389,16 @@
     pointer-events: none;
     border-style: solid;
     border-width: 8px 5px 0px 5px;
-    border-color: #7b7b7b transparent transparent transparent;
+    border-color: #a8a8a8 transparent transparent transparent;
 }
 
 .select-seller-entrances-and-exits select:hover~.select_arrow-seller-entrances-and-exits,
 .select-seller-entrances-and-exits select:focus~.select_arrow-seller-entrances-and-exits {
-    border-top-color: #000000;
+    border-top-color: #9b9b9b;
 }
 
 .select-seller-entrances-and-exits select:disabled~.select_arrow-seller-entrances-and-exits {
-    border-top-color: #cccccc;
+    border-top-color: #9b9b9b;
 }
 
 .buttons-total-entrances-and-exits {
@@ -972,7 +972,7 @@
     padding-left: 10px;
     cursor: pointer;
     outline: 0;
-    border: 1px solid rgba(165, 165, 165, 0.787);
+    border: 1px solid rgba(182, 182, 182, 0.787);
     font-size: 9px;
     border-radius: 10px;
     background: #ffffff;
@@ -1062,7 +1062,7 @@
 .input-observations-entrances-and-exits {
     width: 395px;
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(190, 190, 190);
     margin-left: 64px;
 }
 
@@ -1071,7 +1071,7 @@
 }
 
 .input-observations-entrances-and-exits::placeholder {
-    color: grey;
+    color: rgb(173, 173, 173);
     font-size: 12px;
 }
 
@@ -1342,10 +1342,10 @@
     outline: 0;
     border: none;
     font-size: 10px;
-    border-bottom: 1px solid #727272 !important;
+    border-bottom: 1px solid #adadad !important;
     border-radius: 0px;
     background: #ffffff;
-    color: #8b8b8bdf;
+    color: #9b9b9bdf;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1367,7 +1367,7 @@
     pointer-events: none;
     border-style: solid;
     border-width: 6px 3px 0px 5px;
-    border-color: #7b7b7b transparent transparent transparent;
+    border-color: #a0a0a0 transparent transparent transparent;
 }
 
 .select-search-categories-entrances-and-exits select:hover~.select_arrow-search-categories-entrances-and-exits,
@@ -1382,11 +1382,12 @@
 .input-observations-search-categories-entrances-and-exits {
     width: 282px;
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(165, 165, 165);
 }
 
 .input-observations-search-categories-entrances-and-exits::placeholder {
     font-size: 10px;
+    color: rgb(160, 160, 160);
 }
 
 .buttons-total-search-categories-entrances-and-exits {
